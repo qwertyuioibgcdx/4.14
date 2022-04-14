@@ -1,0 +1,5 @@
+area=lambda i,j,k:i*j*k
+print(area(10,8,6))
+BMI=lambda weight,height:weight/(height*height)
+if BMI(50,1.65)<18.5:
+    print(F"你的BMI为{BMI(50,1.65)},体重过轻")
